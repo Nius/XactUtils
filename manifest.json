@@ -1,0 +1,34 @@
+{
+	"manifest_version" : 3,
+	"name" : "XactUtils",
+	"description" : "XactAnalysis Utilities, by Nicholas Harrell.",
+	"version" : "3.4",
+	"icons": {
+		"128": "X.png"
+	  },
+	"permissions" :
+	[
+		
+	],
+	"content_scripts" :
+	[
+		{
+			"matches" :
+			[
+				"*://*.xactanalysis.com/*"
+             		],
+			"run_at": "document_start",
+			"js" : [
+				"jquery.min.js",
+				"ranks.js",
+				"snippets.js",
+				"colorCodedNotes.js",
+				"colorCodedSearchResults.js",
+				"lossAddressButton.js",
+				"noteAddresses.js",
+				"main.js"
+			],
+			"css" : ["overwriteStyle.css"]
+	        }
+	]
+}    

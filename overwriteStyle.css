@@ -1,0 +1,204 @@
+/* BLACKOUT */
+
+#header2,				/* Search bar */
+button.quick-search-type-button,	/* Quick-search button on search bar */
+.chips-boxed,				/* Email addresses box for add notes */
+.search-filters-container .mdl-card,	/* Search page filters bar */
+.xa-side-panel,				/* Search page left sidebar */
+.results-card .mdl-card,		/* Search page main panel */
+div.breadcrumb-row h1,			/* "Assignment Detail" */
+body
+{
+	background-color:	#000000		!important;
+	color:			#CCCCCC		!important;
+}
+
+/* GRAYOUT */
+
+.mdl-card-content,						/* Most content blocks */
+.data-point,							/* Text in most content blocks */
+.mdl-card th, .mdl-card td,					/* Table cells for content (not page layout) */
+.mdl-card p,							/* Some text */
+.mdl-selectfield__list-option-box,				/* Action menu when open */
+.mdl-selectfield__list-option-box li,				/* Action menu when open */
+.mdl-data-table__cell--non-numeric,				/* Documents and photos lists */
+.mdl-data-table th.no-print,					/* Top-left cell of docs and photos lists */
+.xa-modal-content, .xa-modal-header,				/* Upload documents and photos */
+.xa-modal-actions,						/* Upload documents and photos */
+.file-upload-content .mdl-data-table,				/* File upload table */
+.file-upload-content .mdl-data-table th:first-child.left,	/* File upload table file column header */
+div.popup-body div.mdl-card					/* Project Manager Dialog */
+{
+	background-color:	#333333		!important;
+	color:			#CCCCCC		!important;
+	border-color:		#555555		!important;
+}
+
+/* SPECIAL RULES */
+
+/* "Recently Viewed" button on top-right, and its menu */
+#m_recently_viewed_menu a
+{
+	color:			#CCCCCC		!important;
+}
+#m_recently_viewed_menu:hover
+{
+	background-color:	#333333		!important;
+}
+#recently-viewed-menu
+{
+	background-color:	#333333		!important;
+}
+#recently-viewed-menu .xa-menu-item:hover
+{
+	background-color:	#444444		!important;
+}
+
+/* Action menu (where you select "Export to DASH", etc) */
+.mdl-selectfield__list-option-box li:hover,
+/* Search page side panel options */
+.xa-side-panel div.menu-button.hover:hover,
+.xa-side-panel .menu-button:hover
+{
+	background-color:	#555555		!important;
+}
+label
+{
+	color:			#CCCCCC		!important;
+}
+
+/* Upload documents table mouse hover */
+.mdl-data-table tbody tr:hover
+{
+	background-color:	#555555		!important;
+}
+
+/* Add note textarea */
+textarea
+{
+	background-color:	#000000		!important;
+	color:			#CCCCCC		!important;
+}
+
+/* Add note email pseudo-textarea */
+div.email-chips.chips-boxed.chips
+{
+	padding-left:		2px		!important;
+	padding-top:		2px		!important;
+}
+.email-chips.chips-boxed.chips input
+{
+	color:			#CCCCCC		!important;
+}
+
+/* Selected text */
+::selection
+{
+	background:		#040357		!important;
+	color:			#FFFFFF		!important;
+}
+
+/* Detail Header Darken Titles */
+#detail-header h4
+{
+	color:			#888888		!important;
+}
+
+/* Buttons Added by This Extension */
+.xactutils-button,
+#copyCLA
+{
+	background-color:	#222222;
+	color:			#069abc;
+	border-color:		#CCCCCC;
+	border:			1px #555555 solid;
+	border-radius:		5px;
+	padding:		0.5em 1em 0.5em 1em;
+	margin-left:		1em;
+	cursor:			pointer;
+	max-width:		10em;
+}
+.xactutils-button:hover,
+#copyCLA:hover
+{
+	background-color:	#2F2F2F;
+}
+
+/* COLOR-CODED NOTES */
+
+.mdl-data-table.mdl-js-data-table.nohover.full-width td.xactutils-usaa
+{
+	color:			#AAAADD		!important;
+}
+.mdl-data-table.mdl-js-data-table.nohover.full-width td.xactutils-cc
+{
+	color:			#DDDDAA		!important;
+}
+.mdl-data-table.mdl-js-data-table.nohover.full-width td.xactutils-contractor
+{
+	color:			#AADDAA		!important;
+}
+.mdl-data-table.mdl-js-data-table.nohover.full-width td.xactutils-controls
+{
+	color:			#DDAAAA		!important;
+}
+.mdl-data-table.mdl-js-data-table.nohover.full-width td.xactutils-xactnet
+{
+	color:			#777777		!important;
+}
+.mdl-data-table.mdl-js-data-table.nohover.full-width td.xactutils-self
+{
+	color:			#AADDAA		!important;
+	background-color:	#333833		!important;
+}
+
+/* COLOR-CODED SEARCH RESULTS */
+#assignment-search .mdl-data-table.mdl-js-table.nohover td.xactutils-self
+{
+	color:			#EFEFEF		!important;
+	background-color:	#444444		!important;
+}
+
+/* RANKS */
+
+#xautil-salutation
+{
+	color:			#DDDDCC;
+}
+
+#xautil-fullrank,
+#xautil-branch
+{
+	font-style:		italic;
+	font-size:		11px;
+	color:			#888888;
+	line-height:		15px;
+}
+
+/* SNIPPETS */
+
+/* Add Note Shortcut Buttons */
+#xactutils-shortcuts-div
+{
+	margin-top:		1em;
+}
+.xactutils-snippets-dropdown
+{
+	margin-left:		1em;
+	background-color:	#000000;
+	color:			#069abc;
+	padding-top:		0.5em;
+	padding-bottom:		0.5em;
+	border-radius:		5px;
+	cursor:			pointer;
+}
+
+/* NOTE ADDRESSES */
+p.force-red
+{
+	color:			#FFCCCC		!important;
+}
+label.force-darkGray
+{
+	color:			#777777		!important;
+}
